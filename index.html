@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>SAMARA DUBAI — Luxury Abaya Collection</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link href="https://fonts.googleapis.com/css2?family=Amiri&family=Cormorant+Garamond:ital,wght@0,300;0,500;1,300&family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<div id="loader"><div><h1>SAMARA DUBAI</h1><p class="ar" lang="ar" dir="rtl">أناقة بلا حدود</p><i></i></div></div>
+<header id="hdr">
+  <a class="logo" href="#home"><b>SAMARA DUBAI</b><small data-t="sub"></small></a>
+  <nav aria-label="Main"><a href="#home" data-t="n1"></a><a href="#collection" data-t="n2"></a><a href="#about" data-t="n3"></a><a href="#lookbook" data-t="n5"></a><a href="#contact" data-t="n4"></a></nav>
+  <div class="tools">
+    <div class="lang" role="group" aria-label="Language"><button data-l="0">RU</button><button data-l="1">KG</button><button data-l="2">EN</button></div>
+    <button class="ic" id="bSearch" aria-label="Search">⌕</button>
+    <button class="ic" id="bWish" aria-label="Wishlist">♡<b id="wc">0</b></button>
+    <button class="ic" id="bCart" aria-label="Cart">🛍︎<b id="cc">0</b></button>
+    <button class="ic burger" id="burger" aria-label="Menu" aria-expanded="false">☰</button>
+  </div>
+</header>
+<div class="mm" id="mm">
+  <a href="#home" data-t="n1"></a><a href="#collection" data-t="n2"></a><a href="#about" data-t="n3"></a><a href="#lookbook" data-t="n5"></a><a href="#contact" data-t="n4"></a>
+  <button data-mm="wish" data-t="wish"></button><button data-mm="cart" data-t="cart"></button>
+  <div class="lang"><button data-l="0">RU</button><button data-l="1">KG</button><button data-l="2">EN</button></div>
+</div>
+<main>
+<section class="hero" id="home">
+  <div class="h-img px2" id="hImg"></div>
+  <div class="h-glow"></div><div class="h-gold"></div><div class="h-geo px1"></div><div class="h-dust px1" id="dust"></div><div class="h-rays"></div><div class="h-vig"></div><div class="h-grain"></div>
+  <div class="h-txt px3">
+    <i class="gline"></i>
+    <h1>SAMARA DUBAI</h1>
+    <p class="h-tag" data-t="h_tag2"></p>
+    <p class="h-q" data-t="h2"></p>
+    <p class="ar" lang="ar" dir="rtl">أناقة بلا حدود</p>
+    <a href="#collection" class="btn" data-t="cta"></a>
+  </div>
+</section>
+
+<section class="intro">
+  <p class="ar rv" lang="ar" dir="rtl">الجمال في البساطة</p>
+  <h2 class="rv" data-t="intro_t"></h2>
+  <p class="rv" data-t="intro_p"></p>
+</section>
+
+<section class="edit" id="edit">
+  <div class="bg" data-par="0.12" id="editBg"></div>
+  <div class="edit-t rv"><p class="sub">SAMARA DUBAI</p><h2 data-t="edit_t"></h2><p data-t="edit_p"></p><a class="btn" href="#collection" data-t="cta"></a></div>
+</section>
+
+<section class="collection sec" id="collection">
+  <h2 class="title rv" data-t="col"></h2>
+  <div class="cats rv" id="cats"></div>
+  <div class="filters rv">
+    <label><span data-t="color"></span><select id="fColor"><option value="" data-t="k_all"></option><option value="black" data-t="k_black"></option><option value="cream" data-t="k_cream"></option><option value="champagne" data-t="k_champagne"></option><option value="beige" data-t="k_beige"></option><option value="brown" data-t="k_brown"></option><option value="green" data-t="k_green"></option></select></label>
+    <label><span data-t="size"></span><select id="fSize"><option value="" data-t="z_all"></option><option>XS</option><option>S</option><option>M</option><option>L</option><option>XL</option><option>XXL</option></select></label>
+    <label><span data-t="price"></span><select id="fPrice"><option value="" data-t="p_all"></option><option value="0-220">&lt; $220</option><option value="220-300">$220 – $300</option><option value="300-999">&gt; $300</option></select></label>
+    <label>⇅<select id="sort"><option value="feat" data-t="s_feat"></option><option value="new" data-t="s_new"></option><option value="asc" data-t="s_asc"></option><option value="desc" data-t="s_desc"></option></select></label>
+  </div>
+  <div class="grid" id="grid"></div>
+</section>
+
+<section class="edit dark" id="limited">
+  <div class="bg" data-par="0.12" id="limBg"></div>
+  <div class="edit-t rv"><p class="ar" lang="ar" dir="rtl">الأنوثة في التفاصيل</p><h2>LIMITED COLLECTION</h2><p data-t="lim_p2"></p><button class="btn" id="limBtn" data-t="lim_b"></button></div>
+</section>
+
+<section class="sec" id="lookbook">
+  <h2 class="title rv">Lookbook</h2>
+  <div class="look" id="look"></div>
+</section>
+
+<section class="about" id="about">
+  <div class="about-art rv" id="aboutArt"></div>
+  <div class="about-txt rv"><p class="sub">SAMARA DUBAI</p><h2 data-t="ab_t"></h2><p data-t="ab_p"></p><p class="ar" lang="ar" dir="rtl">الجمال في البساطة</p></div>
+</section>
+</main>
+
+<footer id="contact">
+  <div><h3>SAMARA DUBAI</h3><p>Luxury Abaya Collection</p><p class="ar" lang="ar" dir="rtl">أناقة بلا حدود</p><div class="lang"><button data-l="0">RU</button><button data-l="1">KG</button><button data-l="2">EN</button></div></div>
+  <div><a href="#collection" data-t="n2"></a><a href="#lookbook" data-t="n5"></a><a href="#contact" data-t="n4"></a><a href="#" data-info="p" data-t="priv"></a></div>
+  <div><a href="https://instagram.com/" target="_blank" rel="noopener">Instagram</a><a href="#" id="fWa">WhatsApp</a><a href="https://t.me/" target="_blank" rel="noopener">Telegram</a></div>
+  <p class="copy">© 2026 SAMARA DUBAI</p>
+</footer>
+
+<div class="ovl" id="ovl"></div>
+<aside class="drawer" id="cartD" role="dialog" aria-modal="true" aria-label="Cart"><div class="d-h"><h3 data-t="cart"></h3><button class="x" data-close aria-label="Close">×</button></div><div class="d-b" id="cartB"></div><div class="d-f" id="cartF"></div></aside>
+<aside class="drawer" id="wishD" role="dialog" aria-modal="true" aria-label="Wishlist"><div class="d-h"><h3 data-t="wish"></h3><button class="x" data-close aria-label="Close">×</button></div><div class="d-b" id="wishB"></div></aside>
+<div class="search" id="searchO" role="dialog" aria-modal="true" aria-label="Search"><button class="x" data-close aria-label="Close">×</button><label class="sr" for="q">Search</label><input id="q" data-p="s_ph" autocomplete="off"><div class="s-res" id="sRes"></div></div>
+<div class="modal" id="modal" role="dialog" aria-modal="true" aria-label="Product"></div>
+<div class="modal" id="ckM" role="dialog" aria-modal="true" aria-label="Checkout">
+  <button class="x" data-close aria-label="Close">×</button>
+  <div class="ck"><h2 data-t="chk"></h2>
+    <form id="ckF">
+      <label><span data-t="f_name"></span><input name="n" required autocomplete="name"></label>
+      <label><span data-t="f_phone"></span><input name="p" type="tel" required autocomplete="tel"></label>
+      <label><span data-t="f_city"></span><input name="c" required autocomplete="address-level2"></label>
+      <label><span data-t="f_addr"></span><input name="a" required autocomplete="street-address"></label>
+      <label><span data-t="f_size"></span><input name="s" id="ckSize" required></label>
+      <label><span data-t="f_note"></span><textarea name="m" rows="3"></textarea></label>
+      <div class="sum tot"><span data-t="tot"></span><span id="ckTot"></span></div>
+      <button class="btn dk" data-t="f_btn"></button>
+    </form>
+    <p class="thanks" id="thanks" hidden></p>
+  </div>
+</div>
+<button class="wa-fab" id="waBtn" aria-label="WhatsApp">✆</button>
+<div class="toast" id="toast" role="status" aria-live="polite"></div>
+<div class="cur" id="cur"></div>
+<script src="script.js"></script>
+</body>
+</html>
